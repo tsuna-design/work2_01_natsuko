@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+body{
+    background-color: #eeeeee;
+}
+
+.section-title {
+    max-width: 960px;
+    margin: 60px auto 60px auto;
+    padding: 0 4%;
+    text-align: center;
+    color: green;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    margin: 0 20px 0 20px;
+}
+
+.content-box {
+    background-color: #fff;
+    padding: 10px;
+}
+
+.content-title {
+    border-left: 10px solid green;
+    line-height: 50%;
+    padding: 10px 10px;
+    margin-left: 10px;
+    color: green;
+}
+
+img{
+    max-width: 100%;
+}
+
+.content-text {
+    padding: 10px;
+}
+
+@media screen and (max-width:400px){
+    ul {
+        flex-direction: column;
+    }
+
+    li {
+        margin-bottom: 20px;
+    }
+}
