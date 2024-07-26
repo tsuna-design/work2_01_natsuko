@@ -13,6 +13,7 @@ body{
 }
 
 ul {
+    max-width: 960px;
     display: flex;
     justify-content: space-between;
 }
@@ -28,7 +29,7 @@ li{
 
 .content-title {
     border-left: 10px solid green;
-    line-height: 50%;
+    line-height: 1;
     padding: 10px 10px;
     margin-left: 10px;
     color: green;
